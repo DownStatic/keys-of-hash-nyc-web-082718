@@ -6,5 +6,6 @@ class Hash
         keys_in << argument
       end
     end
+    return keys_in
   end
 end

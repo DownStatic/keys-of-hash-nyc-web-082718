@@ -1,9 +1,9 @@
 class Hash
   def keys_of(*arguments)
-    keys = []
+    keys_of = []
     arguments.each do |argument|
       if Hash.keys.include?(argument)
-        keys << argument
+        keys_of << argument
       end
     end
   end

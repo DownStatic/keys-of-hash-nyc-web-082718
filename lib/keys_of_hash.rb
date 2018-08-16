@@ -1,4 +1,5 @@
 class Hash
+  require Hash.keys
   def keys_of(*arguments)
     keys = []
     arguments.each do |argument|
